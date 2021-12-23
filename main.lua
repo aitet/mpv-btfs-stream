@@ -34,7 +34,7 @@ local function is_handled_url(url)
    else
       return (url:find("magnet:") == 1 or url:find("peerflix://") == 1
                  or url:find("btfs://") == 1
-                 or ends_with(url, "torrent"))
+                 or ends_with(url, ".torrent"))
    end
 end
 
